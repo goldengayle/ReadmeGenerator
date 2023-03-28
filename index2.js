@@ -69,16 +69,23 @@ const questions = [
 
 
 function generateaMarkDown({ title, description, installation, usage, contributions, test, license, github, email }) {
+
+if(license === 'MIT'){
+    var licensetext = "Thos is covered by MIT license"
+} else if(license === 'Apache'){
+    var licensetext= "This is covered by Apache license"
+} else{
+    var licensetext =""
+}
     return `# ${title}
-#
 ## Table of Contents
-[Description](#description)
-[Installation](#installation)
-[Usage](#usage)
-[Contributions](#contributions)
-[Test Instructions](#test-instructions)
-[License](#license)
-[Questions](#questions)
++ [Description](#description)
++ [Installation](#installation)
++ [Usage](#usage)
++ [Contributions](#contributions)
++ [Test Instructions](#test-instructions)
++ [License](#license)
++ [Questions](#questions)
 ## Description
 ${description}
 ## Installation
@@ -91,6 +98,7 @@ ${contributions}
 ${test}
 ## Licence 
 ![${license} License](https://img.shields.io/badge/license-${license}-brightgreen)
+${licensetext}
 ## Questions
 [${email}](mailto:${email})
 [${github}](https://github.com/${github})

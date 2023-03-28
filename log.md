@@ -1,13 +1,12 @@
 # meow
-#
 ## Table of Contents
-[Description](#description)
-[Installation](#installation)
-[Usage](#usage)
-[Contributions](#contributions)
-[Test Instructions](#test-instructions)
-[License](#license)
-[Questions](#questions)
++ [Description](#description)
++ [Installation](#installation)
++ [Usage](#usage)
++ [Contributions](#contributions)
++ [Test Instructions](#test-instructions)
++ [License](#license)
++ [Questions](#questions)
 ## Description
 meow
 ## Installation
@@ -20,6 +19,7 @@ undefined
 meow
 ## Licence 
 ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
+Thos is covered by MIT license
 ## Questions
 [meow](mailto:meow)
-[mepw](https://github.com/mepw)
+[meow](https://github.com/meow)
