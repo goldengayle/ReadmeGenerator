@@ -3,7 +3,9 @@
 ## Description
 This project is a readme generator, that will format information about a programming application in a readme document using Markdown from a commandline interface. 
 ## Usage
-AS A USER I want to save time when making readme documents by having my format generated automatically through a commandline interface.my readme's 
+AS A USER I want to save time when making readme documents by having my format generated automatically through a commandline interface.
+--Video--
+--ScreenShots-
 
 
 ## Installation
