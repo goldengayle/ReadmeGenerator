@@ -4,8 +4,8 @@
 This project is a readme generator, that will format information about a programming application in a readme document using Markdown from a commandline interface. 
 ## Usage
 AS A USER I want to save time when making readme documents by having my format generated automatically through a commandline interface.
---Video--
---ScreenShots-
+<img src="example/ReadMeExample.png" alt="screenshot of application">
+  <a href= "https://drive.google.com/file/d/1LiBNI73yMz9HA5Z1Kq8Yuv7TyrVlMsyl/view"> Link for video Explanation </a>
 
 
 ## Installation
